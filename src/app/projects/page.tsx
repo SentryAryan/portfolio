@@ -4,7 +4,7 @@ import { AspectRatio } from '@/components/ui/aspect-ratio'
 export default function Work() {
   return (
     <div>
-      <h1 className="font-heading mb-8 text-2xl sm:text-4xl">Work</h1>
+      <h1 className="font-heading mb-8 text-2xl sm:text-4xl">Projects</h1>
 
       <div className="flex flex-col gap-5">
         {PROJECTS.map((project, id) => {
@@ -13,16 +13,13 @@ export default function Work() {
               className="border-border shadow-shadow rounded-base bg-main border-2 p-4 sm:p-5"
               key={id}
             >
-              <AspectRatio
-                className="border-border shadow-shadow rounded-base -bottom-[2px]! border-2"
-                ratio={71 / 26}
-              >
+              <a href={project.liveLink} target="_blank">
                 <img
-                  className="rounded-base w-full"
+                  className="border-border shadow-shadow rounded-base -bottom-[2px]! border-2 hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none cursor-pointer"
                   src={`${project.previewImage}`}
                   alt={project.name}
                 />
-              </AspectRatio>
+              </a>
 
               <div className="text-main-foreground font-base mt-5">
                 <h2 className="font-heading text-xl sm:text-2xl">

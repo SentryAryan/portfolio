@@ -4,14 +4,14 @@ import Skills from '@/components/sections/skills'
 export default function About() {
   return (
     <div className="font-base">
-      <h1 className="mb-8 text-2xl font-heading sm:text-4xl">About</h1>
+      <h1 className="font-heading mb-8 text-2xl sm:text-4xl">About</h1>
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-          consequatur, harum pariatur provident rerum placeat magni voluptas
-          consectetur in exercitationem nobis aut, molestiae iure possimus
-          aspernatur nesciunt laudantium ab atque.
+          I am a software engineer with a passion for building scalable and
+          efficient web applications. I have a strong foundation in computer
+          science and software engineering principles, with Next.js, React,
+          Express, and Node.js being my strongest points.
         </p>
       </div>
 

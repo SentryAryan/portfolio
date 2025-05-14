@@ -6,28 +6,12 @@ const PAST_ROLES: {
   endDate: string
 }[] = [
   {
-    company: 'ACME Solutions',
-    role: 'CEO',
+    company: 'Genpact',
+    role: 'Full Stack Developer',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
-    startDate: 'March 2023',
+      'Developed and maintained web applications(online e-commerce platform) using React, Springboot, and Node.js/Developed cart functionality for that e-commerce platform/Developed a checkout process for that e-commerce platform/Developed a product search functionality for that e-commerce platform/Developed filter functionality for that e-commerce platform/Developed dashboards for vendors and admins for that e-commerce platform/Developed a timecard functionality for a internal application',
+    startDate: 'Oct 2024',
     endDate: 'Now',
-  },
-  {
-    company: 'Google',
-    role: 'Software Engineer',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
-    startDate: 'April 2021',
-    endDate: 'March 2023',
-  },
-  {
-    company: 'Vercel',
-    role: 'Developer Advocate',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
-    startDate: 'April 2021',
-    endDate: 'June 2018',
   },
 ]
 

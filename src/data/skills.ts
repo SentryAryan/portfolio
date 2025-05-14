@@ -16,7 +16,13 @@ import {
   SiRedis,
   SiRubyonrails,
   SiSass,
+  SiExpress,
+  SiSpringboot,
   SiTailwindcss,
+  SiGit,
+  SiGitlab,
+  SiGithub,
+  SiTypescript,
 } from '@icons-pack/react-simple-icons'
 
 const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
@@ -27,11 +33,10 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         { skill: 'html', icon: SiHtml5 },
         { skill: 'css', icon: SiCss3 },
         { skill: 'javascript', icon: SiJavascript },
+        { skill: 'typescript', icon: SiTypescript },
         { skill: 'react', icon: SiReact },
-        { skill: 'sass', icon: SiSass },
         { skill: 'tailwind', icon: SiTailwindcss },
         { skill: 'nextjs', icon: SiNextdotjs },
-        { skill: 'astro', icon: SiAstro },
         {
           skill: 'bootstrap',
           icon: SiBootstrap,
@@ -46,14 +51,6 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
           icon: SiNodedotjs,
         },
         {
-          skill: 'ruby on rails',
-          icon: SiRubyonrails,
-        },
-        {
-          skill: 'redis',
-          icon: SiRedis,
-        },
-        {
           skill: 'postgresql',
           icon: SiPostgresql,
         },
@@ -66,12 +63,37 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
           icon: SiMysql,
         },
         {
-          skill: 'nginx',
-          icon: SiNginx,
+          skill: 'nextjs',
+          icon: SiNextdotjs,
+        },
+        {
+          skill: 'express',
+          icon: SiExpress,
+        },
+        {
+          skill: 'springboot',
+          icon: SiSpringboot,
         },
         {
           skill: 'docker',
           icon: SiDocker,
+        },
+      ],
+    },
+    {
+      field: 'Tools',
+      skills: [
+        {
+          skill: 'git',
+          icon: SiGit,
+        },
+        {
+          skill: 'github',
+          icon: SiGithub,
+        },
+        {
+          skill: 'gitlab',
+          icon: SiGitlab,
         },
       ],
     },
