@@ -4,6 +4,7 @@ import {
   SiGmail,
   SiLinkedin,
   SiMedium,
+  SiX,
 } from '@icons-pack/react-simple-icons'
 
 export default function Links() {
@@ -23,6 +24,10 @@ export default function Links() {
     {
       icon: SiMedium,
       href: 'https://accvsref.hashnode.dev/',
+    },
+    {
+      icon: SiX,
+      href: 'https://x.com/Aryansr38439504',
     },
   ]
 
