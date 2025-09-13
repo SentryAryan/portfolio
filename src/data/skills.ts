@@ -23,6 +23,13 @@ import {
   SiGitlab,
   SiGithub,
   SiTypescript,
+  SiClerk,
+  SiShadcnui,
+  SiFigma,
+  SiEraser,
+  SiDotenv,
+  SiMiro,
+  SiSocketdotio,
 } from '@icons-pack/react-simple-icons'
 
 const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
@@ -37,10 +44,15 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         { skill: 'react', icon: SiReact },
         { skill: 'tailwind', icon: SiTailwindcss },
         { skill: 'nextjs', icon: SiNextdotjs },
+        { skill: 'shadcn/ui', icon: SiShadcnui },
+        { skill: 'figma', icon: SiFigma },
+        { skill: 'eraser.io', icon: SiEraser },
+        { skill: 'dotenv', icon: SiDotenv },
         {
           skill: 'bootstrap',
           icon: SiBootstrap,
         },
+        { skill: 'miro', icon: SiMiro },
       ],
     },
     {
@@ -75,9 +87,18 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
           icon: SiSpringboot,
         },
         {
+          skill: 'clerk',
+          icon: SiClerk,
+        },
+        {
           skill: 'docker',
           icon: SiDocker,
         },
+        {
+          skill: 'dotenv',
+          icon: SiDotenv,
+        },
+        { skill: 'socket.io', icon: SiSocketdotio },
       ],
     },
     {

@@ -6,6 +6,14 @@ const PROJECTS: {
   liveLink: string
 }[] = [
   {
+    name: 'UPSC-OVERFLOW',
+    description:
+      'A UPSC online application, where users can prepare for UPSC exams by solving mock tests and quizzes.',
+    liveLink: 'https://upsc-overflow.vercel.app/',
+    previewImage: '/upsc-overflow.png',
+    repoUrl: 'https://github.com/SentryAryan/upsc-overflow',
+  },
+  {
     name: 'Secret-Chat',
     description:
       'A secret chat application, where users can send anonymous messages to each other. It lets you generate messages using AI.',
@@ -112,16 +120,14 @@ const PROJECTS: {
   },
   {
     name: 'Tic-Tac-Toe',
-    description:
-      'An app that helps you play tic-tac-toe with your friends.',
+    description: 'An app that helps you play tic-tac-toe with your friends.',
     liveLink: 'https://tic-tac-toe-game-eight-iota.vercel.app/',
     previewImage: '/tic-tac-toe.png',
     repoUrl: 'https://github.com/SentryAryan/Tic-Tac-Toe-Game',
   },
   {
     name: 'Counter-App',
-    description:
-      'An app that helps you count the numbers.',
+    description: 'An app that helps you count the numbers.',
     liveLink: 'https://counter-app-react-nine.vercel.app/',
     previewImage: '/counter-app.png',
     repoUrl: 'https://github.com/SentryAryan/Counter-App-React-',

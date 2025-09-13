@@ -15,7 +15,7 @@ export default function Experience() {
             <p className="mt-0.5 mb-4 text-sm">
               {role.startDate} - {role.endDate}
             </p>
-            <p>
+            <div className="flex flex-col gap-2">
               {role.description.split('/').map((item, index) => {
                 return (
                   <li key={index}>
@@ -23,7 +23,7 @@ export default function Experience() {
                   </li>
                 )
               })}
-            </p>
+            </div>
           </div>
         )
       })}
