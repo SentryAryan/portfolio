@@ -14,6 +14,14 @@ const PROJECTS: {
     repoUrl: 'https://github.com/SentryAryan/upsc-overflow',
   },
   {
+    name: 'AS-Chat',
+    description:
+      'A chat application, where users can chat with AI, generate images, and more. It lets you generate messages using AI. Also build frontend web apps using AI.',
+    liveLink: 'https://ai-chat-frontend-two.vercel.app/',
+    previewImage: '/as-chat.png',
+    repoUrl: 'https://github.com/SentryAryan/AIChat',
+  },
+  {
     name: 'Secret-Chat',
     description:
       'A secret chat application, where users can send anonymous messages to each other. It lets you generate messages using AI.',
